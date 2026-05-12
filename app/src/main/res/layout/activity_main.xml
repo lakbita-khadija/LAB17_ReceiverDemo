@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="28dp"
+    android:background="#F5F0FF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LAB 17"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#5E35B1"
+        android:layout_marginBottom="6dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BroadcastReceiver Android"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:layout_marginBottom="30dp" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Receiver avion : désactivé"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#4A148C"
+        android:gravity="center"
+        android:padding="18dp"
+        android:background="#EDE7F6"
+        android:layout_marginBottom="22dp" />
+
+    <Button
+        android:id="@+id/btnToggleAirplane"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Activer Receiver Avion"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#673AB7"
+        android:layout_marginBottom="14dp" />
+
+    <Button
+        android:id="@+id/btnSendCustom"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Envoyer Broadcast Personnalisé"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#7E57C2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#777777"
+        android:gravity="center"
+        android:layout_marginTop="35dp" />
+
+</LinearLayout>
